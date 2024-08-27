@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Search"
+        android:id="@+id/search"
+        android:icon="@drawable/baseline_search_24"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="ifRoom"/>
+
+
+    <item
+        android:id="@+id/add_folder"
+        android:title="Add Folder"
+        android:icon="@drawable/baseline_add_24"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/settings"
+        android:title="Settings"
+        android:icon="@drawable/baseline_settings_24"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/rate_us"
+        android:title="Rate Us"
+        android:icon="@drawable/baseline_star_rate_24"
+        app:showAsAction="collapseActionView"/>
+
+</menu>
